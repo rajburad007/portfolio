@@ -82,6 +82,7 @@
 }
 .menu ul li {
   font-size: 1rem;
+  padding: 10px;
 }
 @keyframes moveDown {
   0% {

@@ -19,8 +19,6 @@
   align-items: center;
   max-width: 1700px;
   position: relative;
-
-  cursor: none;
 }
 
 .mainText {
@@ -130,5 +128,8 @@
   }
   .scrollMouse {
     animation: down 2s ease-in-out infinite;
+  }
+  .display{
+    width: 10px;
   }
 }
