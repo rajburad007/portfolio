@@ -1,7 +1,7 @@
 .navigation {
   position: fixed;
   right: 150px;
-  z-index: 100;
+  z-index: 1000;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -135,6 +135,6 @@
 
 @media only screen and (max-width: 500px) {
   .menu ul li {
-    font-size: 1.2rem !important;
+    font-size: 1.3rem !important;
   }
 }
