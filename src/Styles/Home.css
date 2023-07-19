@@ -129,7 +129,5 @@
   .scrollMouse {
     animation: down 2s ease-in-out infinite;
   }
-  .display{
-    width: 10px;
-  }
+  
 }

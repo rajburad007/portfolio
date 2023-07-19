@@ -70,7 +70,7 @@
   border: 1px solid var(--black);
   margin-top: 30px;
   width: 150px;
-  padding: 20px;
+  padding: 10px;
   transition: all 0.4s ease-in-out;
   transform: translateY(-10px);
 }
@@ -131,6 +131,9 @@
   }
   .onscroll {
     top: 55px;
+  }
+  .display {
+    width: 150px;
   }
 }
 
