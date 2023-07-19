@@ -55,3 +55,7 @@
   border: 0px;
   cursor: pointer;
 }
+.socials a img:hover {
+  transform: translateY(5px);
+  transition: all 0.4s ease-in-out;
+}

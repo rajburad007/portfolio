@@ -4,7 +4,7 @@ import UX from "../Icons/uxIcon.png";
 import code from "../Icons/codeIcon.png";
 import "../Styles/About.css";
 import { Link } from "react-router-dom";
-
+import CV from "../CV/cv.pdf";
 const About = () => {
   const imgref = useRef();
   const textref = useRef();
@@ -106,11 +106,12 @@ const About = () => {
             </p>
             <br />
             <a
-              href=""
-              onClick={(e) => {
-                e.preventDefault();
-              }}
+              href={CV}
+              // onClick={(e) => {
+              //   e.preventDefault();
+              // }}
               className="cv"
+              download="RajBurad.pdf"
             >
               <button className="cvBtn">Download cv</button>
             </a>

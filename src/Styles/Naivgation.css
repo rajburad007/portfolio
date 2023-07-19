@@ -80,6 +80,9 @@
   transform: translateY(0px);
   animation: moveDown 0.5s ease-in;
 }
+.menu ul li {
+  font-size: 1rem;
+}
 @keyframes moveDown {
   0% {
     opacity: 0;
@@ -131,7 +134,7 @@
 }
 
 @media only screen and (max-width: 400px) {
-  .modes {
-    display: none;
+  .menu ul li {
+    font-size: 1.2rem;
   }
 }

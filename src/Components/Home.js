@@ -26,25 +26,26 @@ const Home = () => {
     <>
       <Cursor />
       <Bg />
+      <div className="container">
+        <div className="landingSection" id="/">
+          <div className="navBar">
+            <h3 className="headText">Raj Burad</h3>
 
-      <div className="landingSection" id="/">
-        <div className="navBar">
-          <h3 className="headText">Raj Burad</h3>
-
-          <Navigator />
+            <Navigator />
+          </div>
+          <div className="mainText">
+            <p>Hi, I am</p>
+            <p className="typeWriter" id="typeWriter">
+              {skills[val]}
+            </p>
+          </div>
+          <img
+            className="scrollMouse"
+            src={Icon}
+            alt="mouse"
+            onClick={scrollBy}
+          />
         </div>
-        <div className="mainText">
-          <p>Hi, I am</p>
-          <p className="typeWriter" id="typeWriter">
-            {skills[val]}
-          </p>
-        </div>
-        <img
-          className="scrollMouse"
-          src={Icon}
-          alt="mouse"
-          onClick={scrollBy}
-        />
       </div>
     </>
   );
