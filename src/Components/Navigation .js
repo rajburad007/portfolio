@@ -55,7 +55,7 @@ const Navigation = () => {
             </Link>
           </li>
           <li>
-            {/* <Link
+            <Link
               to="/work"
               spy={true}
               smooth={true}
@@ -63,7 +63,7 @@ const Navigation = () => {
               duration={300}
             >
               Work
-            </Link> */}
+            </Link>
           </li>
           <li>
             <Link
