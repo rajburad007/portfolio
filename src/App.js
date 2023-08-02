@@ -9,18 +9,19 @@ import Loader from "./Components/Loader.js";
 import Footer from "./Components/Footer.js";
 import Navigator from "../src/Components/Navigation .js";
 import { useEffect, useRef } from "react";
-
+import { BrowserRouter } from "react-router-dom";
 function App() {
   return (
     <>
-    aa
-      <Home />
-      <About />
-      <BrandBand />
-      {/* <Work /> */}
-      <Testimonial />
-      <Contact />
-      <Footer />
+      <BrowserRouter>
+        <Home />
+        <About />
+        <BrandBand />
+        <Work />
+        <Testimonial />
+        <Contact />
+        <Footer />
+      </BrowserRouter>
     </>
   );
 }
