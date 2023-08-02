@@ -5,6 +5,7 @@ import code from "../Icons/codeIcon.png";
 import "../Styles/About.css";
 import { Link } from "react-router-dom";
 import CV from "../CV/cv.pdf";
+import dp from "../Icons/myPhoto.jpeg";
 const About = () => {
   const imgref = useRef();
   const textref = useRef();
@@ -84,14 +85,7 @@ const About = () => {
       <div className="about" id="/about">
         <h1>About me</h1>
         <div className="infoCont">
-          <img
-            src=""
-            alt=""
-            className="myImg"
-            width="400px"
-            ref={imgref}
-            height="400px"
-          />
+          <img src={dp} alt="" className="myImg" ref={imgref} width="200px" />
           <div className="info" ref={textref}>
             <p>
               Hello, My name is Raj Burad. I am a Frontend Developer. Graduating
@@ -105,14 +99,7 @@ const About = () => {
               <span className="email"> 14august2002rajgmail.com</span>
             </p>
             <br />
-            <a
-              href={CV}
-              // onClick={(e) => {
-              //   e.preventDefault();
-              // }}
-              className="cv"
-              download="RajBurad.pdf"
-            >
+            <a href={CV} className="cv" download="RajBurad.pdf">
               <button className="cvBtn">Download cv</button>
             </a>
           </div>

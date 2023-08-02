@@ -39,7 +39,7 @@ const Navigation = () => {
       <div className="menu" ref={menu}>
         <ul>
           <li>
-            <Link to="/" spy={false} smooth={true} offset={10} duration={300}>
+            <Link to="/" spy={false} smooth={true} offset={0} duration={300}>
               Home
             </Link>
           </li>
